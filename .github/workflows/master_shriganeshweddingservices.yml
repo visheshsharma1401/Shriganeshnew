@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'shriganeshweddingservices'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2a69ccc15e124ad7974a690f20bfe0f4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b7275e7075346398712114717a41e81 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
